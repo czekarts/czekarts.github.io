@@ -1,61 +1,68 @@
-<!DOCTYPE html>
-<html lang="pl">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sklep z ubraniami</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />>
+    <title>Hello world!</title>
 </head>
 
 <body>
-    <nav>
-        <img src="LOGO.webp" alt="logo sreony" class="nav.img">
-    </nav>
+    <main class="container">
 
-    <!--hero-->
-    <div class="hero">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quasi laborum voluptas quisquam temporibus
-            harum?</p>
-        <a href="" class="btn">Zobacz więcej</a>
-    </div>
-    <div>
-        <div class="container">
-            <!--card-->
-            <div class="card">
-                <img src="bluza.webp" alt="lorem picsum">
-                <div class="card-content">
-                    <h2>Bluza Stoprocent TAG Haftbark Czarna</h2>
-                    <a href="">299 PLN</a>
-                </div>
-            </div>
-            <!--card-->
-            <div class="card">
-                <img src="bluza2.webp" alt="lorem picsum">
-                <div class="card-content">
-                    <h2>Bluza Stoprocent Heavy Cotton TAG Haftbark Szary Melanż</h2>
-                    <a href="">349 PLN</a>
-                </div>
-            </div>
-            <!--card-->
-            <div class="card">
-                <img src="bluza3.webp" alt="lorem picsum">
-                <div class="card-content">
-                    <h2>Bluza Tracksuit Stoprocent - WIRE Black</h2>
-                    <a href="">399 PLN</a>
-                </div>
-            </div>
-            <!--card-->
-            <div class="card">
-                <img src="bluza4.webp" alt="lorem picsum">
-                <div class="card-content">
-                    <h2>Bluza Kleks x 100% WITAJCIE W NASZEJ BAJCE Czarna</h2>
-                    <a href="">379 PLN</a>
-                </div>
-            </div>
+        <div class="grid">
+            <article>I’m a card!</article>
+            <article>I’m a card!</article>
+            <article>I’m a card!</article>
         </div>
+<div>
+    <details open>
+        <summary>Accordion 1</summary>
+        <p>...</p>
+      </details>
+      
+      <hr />
+      
+      <details>
+        <summary>Accordion 2</summary>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+      </details>
+</div>
+<div>
+    <form>
+        <fieldset>
+          <label>
+            First name
+            <input
+              name="first_name"
+              placeholder="First name"
+              autocomplete="given-name"
+            />
+          </label>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              autocomplete="email"
+            />
+          </label>
+        </fieldset>
+      
+        <input
+          type="submit"
+          value="Subscribe"
+        />
+      </form>
+</div>
+    
+    </main>
 
 </body>
 
